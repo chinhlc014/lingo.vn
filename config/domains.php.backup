@@ -1,0 +1,33 @@
+<?php
+return [
+
+    // for indo
+    'image_url' => 'https://cf.shopee.co.id',
+    'url' => 'https://shopee.co.id',
+    'search' => [
+        'enabled' => env('SEARCH_ENABLED', true),
+        'hosts' => explode(',', env('SEARCH_HOSTS')),
+    ],
+    'crawl_time' => 1,
+    'index_time' => 2,
+    'code' => 'id',
+    'currency' => 'Rp',
+    'web_name' => 'Pricespy Indonesia'
+
+
+    // for vn
+    'image_url' => 'https://cf.shopee.vn',
+    'url' => 'https://shopee.vn',
+    'search' => [
+        'enabled' => env('SEARCH_ENABLED', true),
+        'hosts' => explode(',', env('SEARCH_HOSTS')),
+    ],
+    'crawl_time' => 1,
+    'index_time' => 1,
+    'code' => 'vn',
+    'currency' => '₫',
+    'web_name' => 'Pricespy Việt Nam',
+    'currency_full' => 'VND',
+
+    // other site
+];

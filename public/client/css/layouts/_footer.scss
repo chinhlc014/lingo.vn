@@ -1,0 +1,111 @@
+footer{
+	background-color: #EAEBEF;
+	padding-top: 12rem;
+	border-top: 0.3rem solid $c1;
+}
+.ft-item{
+	&.v1{
+		margin-top: -6rem;
+	}
+	.title{
+		margin-bottom: 2.5rem;
+		a{
+			color: $c1;
+			font-weight: 600;
+			font-size: 2.2rem;
+		}
+	}
+}
+.logo-ft{
+	img{
+		max-width: 20.3rem;
+	}
+}
+.desc-ft{
+	font-size: 1.8rem;
+	margin: 3.5rem 0 2.5rem 0;
+}
+.social-ft{
+	display: flex;
+	li{
+		display: inline-block;
+		margin-right: 1rem;
+		img{
+			width: 3.123rem;
+			height: 3.123rem;
+		}
+	}
+}
+.link-ft{
+	li{
+		margin-bottom: 1.2rem;
+		a{
+			font-size: 1.8rem;
+			line-height: 1.4;
+			transition: 0.2s;
+			&:hover{
+				color: $c1;
+			}
+		}
+	}
+}
+.info-ft{
+	font-size: 1.8rem;
+	li{
+		margin-bottom: 1rem;
+		&.name-company{
+			text-transform: uppercase;
+			font-weight: 600;
+		}
+		strong{
+			font-weight: 500;
+		}
+		a{
+			transition: 0.2s;
+			&:hover{
+				color: $c1;
+			}
+		}
+	}
+}
+.copyright{
+	border-top: 1px solid #c7c7c7;
+	text-align: center;
+	color: #898989;
+	padding: 1.2rem 0;
+	margin-top: 4rem;
+}
+@media (max-width: 991px) {
+	footer{
+		padding-top: 10rem;
+	}
+	.desc-ft{
+		margin-top: 2rem;
+	}
+	.ft-item{
+		margin-bottom: 3rem;
+		.title{
+			margin-bottom: 1.5rem;
+		}
+	}
+	.copyright{
+		margin-top: 1rem;
+	}
+	.logo-ft img{
+		max-width: 16rem;
+	}
+}
+@media (max-width: 575px) {
+	.desc-ft{
+		font-size: 1.6rem;
+	}
+	.link-ft li a,.info-ft{
+		font-size: 1.6rem;
+	}
+	.ft-item .title a{
+		font-size: 2rem;
+	}
+	.copyright{
+		font-size: 1.4rem;
+	}
+}

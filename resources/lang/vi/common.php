@@ -1,0 +1,22 @@
+<?php
+return [
+    'home' => 'Trang chủ',
+    'image' => 'Hình ảnh',
+    'product' => 'Sản phẩm',
+    'stock' => 'Kho',
+    'price' => 'Giá',
+    'show_more' => 'Xem thêm',
+    'show_less' => 'Ẩn bớt',
+    'save' => 'Lưu',
+    'compare' => 'So sánh',
+    'now' => 'Hiện tại',
+    'brand' => 'Thương hiệu',
+    'available' => 'có sẵn',
+    'category' => 'Danh mục',
+    'sold' => 'Đã bán',
+    'info' => 'Thông tin',
+    'reviews' => 'Đánh giá',
+    'purchase' => 'Mua hàng',
+    'in' => 'trong',
+    'search_placeholder' => 'Tìm kiếm sản phẩm ...',
+];
